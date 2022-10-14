@@ -6,8 +6,9 @@
 int main(void)
 {
 	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
+	int count = 0;
 
-	for (int count = 0; count < 28; count++)
+	while (count < 28)
 	{
 		if (alpha[count] == '\0')
 		{
@@ -15,7 +16,10 @@ int main(void)
 			break;
 		}
 		else
+		{
 			putchar(alpha[count]);
+			count++;
+		}
 	}
 	return (0);
 }
