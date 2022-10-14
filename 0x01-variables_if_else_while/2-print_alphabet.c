@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char alpha[] = "abcdefghijklmnopqrstuvwxyz"
+	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 
 	for (int count = 0; count < 28; count++)
 	{
