@@ -28,7 +28,7 @@ int main(void)
 			{
 				putchar(firstNumber + '0');
 				putchar(count + '0');
-				if (firstNumber != 8 && count == 9)
+				if (firstNumber > count)
 				{
 					putchar(',');
 					putchar(' ');
