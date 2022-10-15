@@ -6,7 +6,7 @@
 int main(void)
 {
 	char hexaNum[] = "0123456789abcdef";
-	int count = 1;
+	int count = 0;
 
 	while (count < 18)
 	{
