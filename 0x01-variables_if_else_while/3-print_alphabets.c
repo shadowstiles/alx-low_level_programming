@@ -12,24 +12,21 @@ int main(void)
 
 	while (count < 28)
 	{
-		if (current)
+		if (current == 1)
 			count = 0;
 
 		if (smallLetters[count] == '\0')
-			current = 0;
+			current = 1;
 
-		if (current)
+		if (current == 1)
 		{
 			if (capitalLetters[count] == '\0')
 			{
 				putchar('\n');
 				break;
 			}
-			else
-			{
-				putchar(capitalLetters[count]);
-				count++;
-			}
+			putchar(capitalLetters[count]);
+			count++;
 		}
 		else
 		{
