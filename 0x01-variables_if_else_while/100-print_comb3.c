@@ -28,9 +28,12 @@ int main(void)
 			{
 				putchar(firstNumber + '0');
 				putchar(count + '0');
-				putchar(',');
-				putchar(' ');
-				count++;
+				if (firstNumber != 8 && count != 9)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+l				count++;
 			}
 		}
 	}

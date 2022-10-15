@@ -15,7 +15,7 @@ int main(void)
 			putchar('\n');
 			break;
 		}
-		putchar(hexaNum[count];
+		putchar(hexaNum[count]);
 		count++;
 	}
 	return (0);

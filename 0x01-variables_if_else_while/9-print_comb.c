@@ -15,8 +15,11 @@ int main(void)
 			break;
 		}
 		putchar(count + '0');
-		putchar(',');
-		putchar(' ');
+		if (count != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		count++;
 	}
 	return (0);
