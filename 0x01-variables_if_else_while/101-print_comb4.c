@@ -14,31 +14,42 @@ int main(void)
 		if (firstNumber >= secondNumber || secondNumber >= count)
 		{
 			count++;
-		} else
+		}
+		
+		if (firstNumber > 9)
 		{
-			if (firstNumber > 9)
+			putchar('\n');
+			break;
+		}
+			
+		if (count > 9)
+		{
+			secondNumber++;
+			count = 0;
+		}
+			
+		if (secondNumber > 9)
+		{
+			firstNumber++;
+			secondNumber = 0;
+		}
+		
+		if (firstNumber >= secondNumber || secondNumber >= count)
+		{
+			count++;
+		}
+		else
+		{
+			putchar(firstNumber + '0');
+			putchar(secondNumber + '0');
+			putchar(count + '0');
+			if (a != 7 && b != 8 && c != 9)
 			{
-				putchar('\n');
-				break;
-			}
-			if (count > 9)
-			{
-				secondNumber++;
-				count = 0;
-			}
-			if (secondNumber > 9)
-			{
-				firstNumber++;
-				secondNumber = 0;
-			} else
-			{
-				putchar(firstNumber + '0');
-				putchar(secondNumber + '0');
-				putchar(count + '0');
 				putchar(',');
 				putchar(' ');
-				count++;
 			}
+			count++;
+		}
 		}
 		return (0);
 	}
