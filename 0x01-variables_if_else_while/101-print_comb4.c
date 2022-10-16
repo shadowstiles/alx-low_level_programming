@@ -6,8 +6,8 @@
 int main(void)
 {
 	int firstNumber = 0;
-	int secondNumber = 0;
-	int count = 1;
+	int secondNumber = 1;
+	int count = 2;
 
 	while (firstNumber < 11)
 	{
