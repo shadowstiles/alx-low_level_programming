@@ -15,25 +15,21 @@ int main(void)
 		{
 			count++;
 		}
-		
 		if (firstNumber > 9)
 		{
 			putchar('\n');
 			break;
-		}
-			
+		}	
 		if (count > 9)
 		{
 			secondNumber++;
 			count = 0;
-		}
-			
+		}	
 		if (secondNumber > 9)
 		{
 			firstNumber++;
 			secondNumber = 0;
 		}
-		
 		if (firstNumber >= secondNumber || secondNumber >= count)
 		{
 			count++;
