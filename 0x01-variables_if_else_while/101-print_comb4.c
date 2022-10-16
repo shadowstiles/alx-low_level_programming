@@ -43,7 +43,7 @@ int main(void)
 			putchar(firstNumber + '0');
 			putchar(secondNumber + '0');
 			putchar(count + '0');
-			if (a != 7 && b != 8 && c != 9)
+			if (firstNumber != 7 && secondNumber != 8 && count != 9)
 			{
 				putchar(',');
 				putchar(' ');
