@@ -12,24 +12,27 @@ int main(void)
 		if (firstNumber1 > 9)
 		{
 			putchar('\n');
-			break; }
+			break;
+		}
 		if (count > 9)
 		{
 			firstNumber2++;
-			count = 0; }
+			count = 0;
+		}
 		if (firstNumber2 > 9)
 		{
 			secondNumber1++;
-			firstNumber2 = 0; }
+			firstNumber2 = 0;
+		}
 		if (secondNumber1 > 9)
 		{
 			firstNumber1++;
-			secondNumber1 = 0; }
+			secondNumber1 = 0;
+		}
 		if (secondNumber1 >= count || firstNumber1 > firstNumber2)
 		{
 			count++;
-		}
-		else
+		} else
 		{
 			putchar(firstNumber1 + '0');
 			putchar(secondNumber1 + '0');
