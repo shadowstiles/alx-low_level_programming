@@ -5,7 +5,8 @@
  */
 int main(void)
 {
-	int a, b, c, d = 0;
+	int a, b, c = 0;
+	int d = 1;
 
 	while (a < 11)
 	{
