@@ -5,37 +5,29 @@
  */
 int main(void)
 {
-	int firstNumber1 = 0;
-	int firstNumber2 = 0;
-	int secondNumber1 = 0;
-	int count = 0;
+	int firstNumber1, firstNumber2, secondNumber1, count = 0;
 
 	while (firstNumber1 < 11)
 	{
 		if (firstNumber1 > 9)
 		{
 			putchar('\n');
-			break;
-		}
+			break; }
 		if (count > 9)
 		{
 			firstNumber2++;
-			count = 0;
-		}
+			count = 0; }
 		if (firstNumber2 > 9)
 		{
 			secondNumber1++;
-			firstNumber2 = 0;
-		}
+			firstNumber2 = 0; }
 		if (secondNumber1 > 9)
 		{
 			firstNumber1++;
-			secondNumber1 = 0;
-		}
-		if (secondNumber1 >= count && firstNumber1 == firstNumber2)
+			secondNumber1 = 0; }
+		if (secondNumber1 >= count || firstNumber1 > firstNumber2)
 		{
-			count++;
-		}
+			count++; }
 		else
 		{
 			putchar(firstNumber1 + '0');
@@ -43,8 +35,10 @@ int main(void)
 			putchar(' ');
 			putchar(firstNumber2 + '0');
 			putchar(count + '0');
-			putchar(',');
-			putchar(' ');
+			if (secondNumber != 8)
+			{
+				putchar(',');
+				putchar(' '); }
 			count++;
 		}
 	}
