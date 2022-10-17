@@ -27,7 +27,8 @@ int main(void)
 			secondNumber1 = 0; }
 		if (secondNumber1 >= count || firstNumber1 > firstNumber2)
 		{
-			count++; }
+			count++;
+		}
 		else
 		{
 			putchar(firstNumber1 + '0');
