@@ -5,8 +5,9 @@
  */
 int main(void)
 {
-	int a, b, c = 0;
-	int d = 1;
+	int a, b, c, d;
+
+	a = b = c = d = 0;
 
 	while (a < 10)
 	{
@@ -42,6 +43,6 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			return (0);
 	}
+	return (0);
 }
