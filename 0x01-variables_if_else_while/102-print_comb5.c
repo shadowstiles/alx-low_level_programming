@@ -38,7 +38,8 @@ int main(void)
 			if (secondNumber1 != 8)
 			{
 				putchar(',');
-				putchar(' '); }
+				putchar(' ');
+			}
 			count++;
 		}
 	}
