@@ -5,47 +5,41 @@
  */
 int main(void)
 {
-	int firstNumber1, firstNumber2, secondNumber1, count = 0;
+	int a, b, c, d = 0;
 
-	while (firstNumber1 < 11)
+	while (a < 11)
 	{
-		if (firstNumber1 > 9)
+		if (a > 9)
 		{
 			putchar('\n');
-			break;
-		}
-		if (count > 9)
+			break; }
+		if (b > 9)
 		{
-			firstNumber2++;
-			count = 0;
-		}
-		if (firstNumber2 > 9)
+			a++;
+			b = 0; }
+		if (c > 9)
 		{
-			secondNumber1++;
-			firstNumber2 = 0;
-		}
-		if (secondNumber1 > 9)
+			b++;
+			c = 0; }
+		if (d > 9)
 		{
-			firstNumber1++;
-			secondNumber1 = 0;
-		}
-		if (secondNumber1 >= count || firstNumber1 > firstNumber2)
+			c++;
+			d = 0; }
+		if (a > c || b >= d)
 		{
-			count++;
-		} else
-		{
-			putchar(firstNumber1 + '0');
-			putchar(secondNumber1 + '0');
-			putchar(' ');
-			putchar(firstNumber2 + '0');
-			putchar(count + '0');
-			if (secondNumber1 != 8)
+			d++; } else
 			{
-				putchar(',');
+				putchar(a + '0');
+				putchar(b + '0');
 				putchar(' ');
+				putchar(c + '0');
+				putchar(d + '0');
+				if (b != 8)
+				{
+					putchar(',');
+					putchar(' '); }
+				d++;
 			}
-			count++;
-		}
 	}
 	return (0);
 }
