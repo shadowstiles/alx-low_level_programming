@@ -9,19 +9,19 @@ int main(void)
 
 	while (a < 11)
 	{
-		if (a > 9)
+		if (a == 10)
 		{
 			putchar('\n');
 			break; }
-		if (b > 9)
+		if (b == 10)
 		{
 			a++;
 			b = 0; }
-		if (c > 9)
+		if (c == 10)
 		{
 			b++;
 			c = 0; }
-		if (d > 9)
+		if (d == 10)
 		{
 			c++;
 			d = 0; }
