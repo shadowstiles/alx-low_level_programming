@@ -27,7 +27,7 @@ int main(void)
 		{
 			c++;
 			d = 0; }
-		if (a > c || b >= d || (a == c && b == d))
+		if (a > c || b >= d)
 		{
 			d++; } else
 			{
