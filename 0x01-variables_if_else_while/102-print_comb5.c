@@ -8,7 +8,7 @@ int main(void)
 	int a, b, c = 0;
 	int d = 1;
 
-	while (a < 10)
+	while (a < 11)
 	{
 		if (a == 10)
 		{
@@ -35,9 +35,12 @@ int main(void)
 				putchar(' ');
 				putchar(c + '0');
 				putchar(d + '0');
-				putchar(',');
-				putchar(' ');
 				d++;
+				if (a == 9 && b == 8)
+				{
+					return (0); }
+				putchar(',');
+				putchar(' ');;
 			}
 	}
 	return (0);
