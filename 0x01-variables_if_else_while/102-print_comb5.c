@@ -35,7 +35,7 @@ int main(void)
 			putchar(' ');
 			putchar(firstNumber2 + '0');
 			putchar(count + '0');
-			if (secondNumbe1r != 8)
+			if (secondNumber1 != 8)
 			{
 				putchar(',');
 				putchar(' '); }
