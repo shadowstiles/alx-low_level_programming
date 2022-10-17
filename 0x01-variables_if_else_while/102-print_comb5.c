@@ -35,9 +35,9 @@ int main(void)
 				putchar(' ');
 				putchar(c + '0');
 				putchar(d + '0');
-				d++;
 				putchar(',');
 				putchar(' ');
+				d++;
 			}
 	}
 	return (0);
