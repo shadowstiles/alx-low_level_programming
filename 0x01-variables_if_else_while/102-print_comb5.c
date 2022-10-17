@@ -25,7 +25,7 @@ int main(void)
 		{
 			c++;
 			d = 0; }
-		if (a > c || b >= d)
+		if (a > c || b >= d (a == c && b == d))
 		{
 			d++; } else
 			{
@@ -34,11 +34,12 @@ int main(void)
 				putchar(' ');
 				putchar(c + '0');
 				putchar(d + '0');
+				d++;
 				if (b != 8)
 				{
-					putchar(',');
-					putchar(' '); }
-				d++;
+					return (0); }
+				putchar(',');
+				putchar(' ');
 			}
 	}
 	return (0);
