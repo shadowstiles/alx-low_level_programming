@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - Entry Point
@@ -19,10 +20,10 @@ void print_alphabet(void)
 	{
 		if (alphabet_lower[count] == '\0')
 		{
-			_putchar('\n');
+			putchar('\n');
 			break;
 		}
-		_putchar(alphabet_lower[count]);
+		putchar(alphabet_lower[count]);
 		count++;
 	}
 }
