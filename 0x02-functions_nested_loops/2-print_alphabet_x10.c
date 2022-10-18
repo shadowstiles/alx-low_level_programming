@@ -11,7 +11,7 @@ int main(void)
 	return (0);
 }
 
-void print_alphabet_x10(void)
+print_alphabet_x10(void)
 {
 	char alphabet_lower[] = "abcdefghijklmnopqrstuvwxyz";
 	int count = 0;
