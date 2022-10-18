@@ -12,12 +12,6 @@ int main(void)
 	return (0);
 }
 
-int _putchar(int c)
-{
-	putchar(c);
-	return (1);
-}
-
 void print_alphabet(void)
 {
 	char alphabet_lower[] = "abcdefghijklmnopqrstuvwxyz";
