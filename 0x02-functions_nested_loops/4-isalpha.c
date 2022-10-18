@@ -3,7 +3,7 @@
 /**
  * _isalpha - uppercase, letter etv
  * @c: imput
- * Returns: value
+ * Return: value
  */
 int _isalpha(int c)
 {
