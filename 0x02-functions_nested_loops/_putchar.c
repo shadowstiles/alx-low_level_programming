@@ -1,9 +1,9 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 /**
  * _putchar - funtion to pribt to stdout
- * c - inputed value
- * Return: 0
+ * @c - inputed value
+ * Return: On success 1
  */
 int _putchar(char c)
 {

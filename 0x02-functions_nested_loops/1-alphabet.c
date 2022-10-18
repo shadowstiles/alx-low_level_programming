@@ -1,15 +1,8 @@
 #include "main.h"
 /**
- * main - Entry Point
  * print_alphabet - Aphabet printing
  * Return: 0
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet(void)
 {
 	char alphabet_lower[] = "abcdefghijklmnopqrstuvwxyz";
