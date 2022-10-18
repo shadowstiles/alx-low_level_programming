@@ -10,12 +10,12 @@ int main(void)
 	return (0);
 }
 
-_putchar(int c)
+int _putchar(int c)
 {
 	putchar(c);
 }
 
-print_alphabet(void)
+void print_alphabet(void)
 {
 	char alphabet_lower[] = "abcdefghijklmnopqrstuvwxyz";
 	int count = 0;
