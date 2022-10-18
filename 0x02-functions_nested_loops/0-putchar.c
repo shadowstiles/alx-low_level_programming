@@ -8,7 +8,7 @@ int main(void)
 	char putc[] = "_putchar";
 	int count = 0;
 
-	while (count < 8)
+	while (count < 10)
 	{
 		if (putc[count] == '\0')
 		{
