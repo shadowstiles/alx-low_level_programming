@@ -2,6 +2,8 @@
 #include "main.h"
 /**
  * main - Entry Point
+ * _putchar - putchar Function
+ * print_alphabet - aphabet printing
  * Return: 0
  */
 int main(void)
@@ -30,5 +32,4 @@ void print_alphabet(void)
 		_putchar(alphabet_lower[count]);
 		count++;
 	}
-	return (0);
 }
