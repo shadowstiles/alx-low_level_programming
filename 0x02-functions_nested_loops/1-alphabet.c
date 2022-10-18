@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * main - Entry Point
- * _putchar - putchar Function
- * print_alphabet - aphabet printing
+ * _putchar - Putchar Function
+ * print_alphabet - Aphabet printing
  * Return: 0
  */
 int main(void)
@@ -15,6 +15,7 @@ int main(void)
 int _putchar(int c)
 {
 	putchar(c);
+	return (0);
 }
 
 void print_alphabet(void)
