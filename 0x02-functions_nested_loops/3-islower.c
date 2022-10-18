@@ -7,17 +7,19 @@ int _islower(int c)
 {
 	char lower[] = "abcdefghijklmonpqrstuvwxyz";
 	int count = 0;
+	int value;
 
 	while (count < 30)
 	{
 		if (lower[count] == c)
 		{
-			return (1);
+			value = 1;
 		}
 		else
 		{
-			return (0);
+			value = 0;
 		}
 		count++;
 	}
+	return (value);
 }
