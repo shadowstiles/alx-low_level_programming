@@ -1,25 +1,20 @@
 #include "main.h"
+#include <ctype>
 /**
  * _islower - checks for lowercase letters
  * Returns: 0 || 1
  */
 int _islower(int c)
 {
-	char lower[] = "abcdefghijklmonpqrstuvwxyz";
-	int count = 0;
 	int value;
 
-	while (count < 30)
+	if (islower(c))
 	{
-		if (lower[count] == (c + '0'))
-		{
-			value = 1;
-		}
-		else
-		{
-			value = 0;
-		}
-		count++;
+		value = 1;
+	}
+	else
+	{
+		value = 0;
 	}
 	return (value);
 }
