@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Entry Point
  * print_alphabet - Aphabet printing
@@ -8,7 +8,7 @@ void print_alphabet(void);
 
 int main(void)
 {
-	void print_alphabet();
+	print_alphabet();
 	return (0);
 }
 
@@ -21,10 +21,10 @@ void print_alphabet(void)
 	{
 		if (alphabet_lower[count] == '\0')
 		{
-			putchar('\n');
+			_putchar('\n');
 			break;
 		}
-		putchar(alphabet_lower[count]);
+		_putchar(alphabet_lower[count]);
 		count++;
 	}
 }
