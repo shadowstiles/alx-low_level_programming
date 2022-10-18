@@ -14,8 +14,7 @@ int main(void)
 
 int _putchar(int c)
 {
-	putchar(c);
-	return;
+	return putchar(c);
 }
 
 void print_alphabet(void)
