@@ -25,7 +25,7 @@ int main(void)
 			b = 0; }
 		if (a > c || (a == c && b >= d))
 		{
-			d++; } lse
+			d++; } else
 			{
 				putchar(a + '0');
 				putchar(b + '0');
