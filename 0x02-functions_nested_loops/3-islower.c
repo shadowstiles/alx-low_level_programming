@@ -1,8 +1,9 @@
 #include "main.h"
-#include <ctype>
+#include <ctype.h>
 /**
- * _islower - checks for lowercase letters
- * Returns: 0 || 1
+ * _islower - Entry
+ * @c - Imput
+ * Return: value
  */
 int _islower(int c)
 {
