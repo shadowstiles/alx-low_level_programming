@@ -9,7 +9,7 @@ int main(void)
 
 	a = b = c = d = 0;
 
-	while (a < 10)
+	while (a < 11)
 	{
 		if (d == 10)
 		{
@@ -23,7 +23,7 @@ int main(void)
 		{
 			a++;
 			b = 0; }
-		if (a == 10) 
+		if (a == 10)
 		{
 			putchar('\n');
 			break; }
