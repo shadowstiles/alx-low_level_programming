@@ -30,4 +30,5 @@ print_alphabet(void)
 		_putchar(alphabet_lower[count]);
 		count++;
 	}
+	return (0);
 }
