@@ -11,7 +11,7 @@ int _islower(int c)
 
 	while (count < 30)
 	{
-		if (lower[count] == (c + '0') || c < 0)
+		if (lower[count] == (c + '0'))
 		{
 			value = 1;
 		}
