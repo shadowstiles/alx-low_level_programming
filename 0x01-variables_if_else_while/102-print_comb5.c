@@ -11,10 +11,6 @@ int main(void)
 
 	while (a < 10)
 	{
-		if (a == 10)
-		{
-			putchar('\n');
-			break; }
 		if (d == 10)
 		{
 			c++;
@@ -27,6 +23,10 @@ int main(void)
 		{
 			a++;
 			b = 0; }
+		if (a == 10) 
+		{
+			putchar('\n');
+			break; }
 		if (a > c || (a == c && b >= d))
 		{
 			d++; } else
