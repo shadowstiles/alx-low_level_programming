@@ -23,13 +23,9 @@ int main(void)
 		{
 			a++;
 			b = 0; }
-		if (a == 10)
-		{
-			putchar('\n');
-			break; }
 		if (a > c || (a == c && b >= d))
 		{
-			d++; } else
+			d++; } lse
 			{
 				putchar(a + '0');
 				putchar(b + '0');
@@ -39,6 +35,7 @@ int main(void)
 				d++;
 				if (a == 9 && b == 8)
 				{
+					putchar('\n');
 					return (0); }
 				putchar(',');
 				putchar(' ');
