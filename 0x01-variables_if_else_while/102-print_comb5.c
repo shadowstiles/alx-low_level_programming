@@ -15,18 +15,18 @@ int main(void)
 		{
 			putchar('\n');
 			break; }
-		if (b == 10)
-		{
-			a++;
-			b = 0; }
-		if (c == 10)
-		{
-			b++;
-			c = 0; }
 		if (d == 10)
 		{
 			c++;
 			d = 0; }
+		if (c == 10)
+		{
+			b++;
+			c = 0; }
+		if (b == 10)
+		{
+			a++;
+			b = 0; }
 		if (a > c || (a == c && b >= d))
 		{
 			d++; } else
