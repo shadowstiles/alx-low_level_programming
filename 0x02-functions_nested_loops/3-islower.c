@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * _islower - Entry
- * @c - Imput
+ * @c:  Imput
  * Return: value
  */
 int _islower(int c)
