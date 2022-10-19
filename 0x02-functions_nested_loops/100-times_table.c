@@ -24,10 +24,10 @@ void print_times_table(int n)
 			if (count != (times - 1))
 			{
 				printf(",");
-				putchar(' ');
-				putchar(' ');
-				putchar(' ' );
+				putchar(' ');;
 			}
+			if (value <= 9)
+				putchar(' ');
 			count++;
 		}
 		printf("\n");
