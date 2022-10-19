@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * print_last_digit - prints the last digit of a number
  * @v: number whose last number is to be printed
@@ -7,8 +8,11 @@
 int print_last_digit(int v)
 {
 	int last;
+	int absv;
 
-	last = v % 10;
+	absv = abs(v)
+	last = absv % 10;
+
 	_putchar(last + '0');
 	return (last);
 }
