@@ -21,13 +21,13 @@ void print_times_table(int n)
 		{
 			value = count * multiple;
 			printf("%i", value);
+			if (value <= 9)
+				putchar(' ');
 			if (count != (times - 1))
 			{
 				printf(",");
-				putchar(' ');;
-			}
-			if (value <= 9)
 				putchar(' ');
+			}
 			count++;
 		}
 		printf("\n");

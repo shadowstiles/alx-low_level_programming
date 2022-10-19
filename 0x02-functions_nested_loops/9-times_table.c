@@ -16,13 +16,13 @@ void times_table(void)
 		{
 			value = count * multiple;
 			printf("%i", value);
+			if (value <= 9)
+				putchar(' ');
 			if (count != 9)
 			{
 				printf(",");
 				putchar(' ');
 			}
-			if (value <= 9)
-				putchar(' ');
 			count++;
 		}
 		printf("\n");

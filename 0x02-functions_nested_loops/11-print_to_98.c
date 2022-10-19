@@ -23,7 +23,7 @@ void print_to_98(int n)
 			putchar(' ');
 			n++;
 		}
-		if (n == 98)
+		if (n > 97)
 		{
 			printf("%i", 98);
 			putchar('\n');
