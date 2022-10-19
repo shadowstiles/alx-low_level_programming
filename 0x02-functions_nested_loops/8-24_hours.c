@@ -20,7 +20,7 @@ void jack_bauer(void)
 			b++;
 			c = 0;
 		}
-		if (b == 4)
+		if (b == 10)
 		{
 			a++;
 			b = 0;
@@ -32,5 +32,7 @@ void jack_bauer(void)
 		_putchar(d + '0');
 		_putchar('\n');
 		d++;
+		if (a == 2 && b == 4)
+			break;
 	}
 }

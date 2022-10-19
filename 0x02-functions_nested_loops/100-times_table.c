@@ -6,7 +6,9 @@
  */
 void print_times_table(int n)
 {
-	int multiple, count, value = 0;
+	int multiple = 0;
+	int count = 0;
+	int value = 0;
 	int times = n + 1;
 
 	while (multiple < times)
