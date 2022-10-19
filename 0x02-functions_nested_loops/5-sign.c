@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * print_sign - prints sign of a value
  * @n: input value
@@ -10,10 +10,10 @@ int print_sign(int n)
 	int value;
 
 	if (n > 0)
-		value = +1;
+		value = atoi("+1");
 	if (n == 0)
-		value = 0;
+		value = atoi("0");
 	if (n < 0)
-		value = -1;
-	return (value + '0');
+		value = atoi("-1");
+	return (value);
 }
