@@ -11,7 +11,7 @@ int print_last_digit(int v)
 	int last;
 	int absv;
 
-	_putchar(INT_MIN);
+	_putchar(v + '0');
 
 	absv = abs(v);
 	last = absv % 10;
