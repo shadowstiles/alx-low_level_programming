@@ -11,7 +11,7 @@ int main(void)
 	int count = 2;
 	int c;
 
-	putchar(a + '0');
+	printf("%i, ", a);
 	while (count < 51)
 	{
 		c = b;
