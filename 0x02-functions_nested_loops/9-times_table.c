@@ -18,12 +18,12 @@ void times_table(void)
 			printf("%i", value);
 			if (count != 9)
 			{
-				_putchar(',');
-				_putchar(' ');
+				printf(",");
+				printf(" ");
 			}
 			count++;
 		}
-		_putchar('\n');
+		printf("\n");
 		multiple++;
 		value = 0;
 		count = 0;

@@ -23,6 +23,10 @@ void print_to_98(int n)
 			putchar(' ');
 			n++;
 		}
+		if (n == 99)
+		{
+			putchar('\n');
+			break;
+		}
 	}
-	putchar('\n');
 }
