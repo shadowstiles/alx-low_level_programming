@@ -15,7 +15,7 @@ void times_table(void)
 		while (count < 10)
 		{
 			value = count * multiple;
-			print("%i", value);
+			printf("%i", value);
 			if (count != 9)
 			{
 				_putchar(',');

@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_times_table - times table
  * @n: any number
@@ -15,7 +16,7 @@ void print_times_table(int n)
 	{
 		while (count < times)
 		{
-			value = count* multiple;
+			value = count * multiple;
 			printf("%i", value);
 			if (count != (times - 1))
 			{

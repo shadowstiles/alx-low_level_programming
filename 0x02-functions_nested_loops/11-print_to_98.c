@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h> 
+#include <stdio.h>
 /**
  * print_to_98 - print from any number to 98
  * @n: the number to start from
@@ -23,7 +23,7 @@ void print_to_98(int n)
 			putchar(' ');
 			n++;
 		}
-		else
+		if (n == 98)
 		{
 			putchar('\n');
 			break;
