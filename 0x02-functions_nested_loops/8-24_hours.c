@@ -14,12 +14,12 @@ void jack_bauer(void)
 			c++;
 			d = 0;
 		}
-		if (c == 10)
+		if (c == 6)
 		{
 			b++;
 			c = 0;
 		}
-		if (b == 10)
+		if (b == 4)
 		{
 			a++;
 			b = 0;
