@@ -32,7 +32,7 @@ void jack_bauer(void)
 		_putchar(d + '0');
 		_putchar('\n');
 		d++;
-		if (a == 2 && b == 4)
+		if (a == 2 && b == 4 && c == 5 && d == 10)
 			break;
 	}
 }

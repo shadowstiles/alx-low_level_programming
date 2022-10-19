@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * times_table - 9 times table
  * Return : 0
@@ -13,21 +14,16 @@ void times_table(void)
 	{
 		while (count < 10)
 		{
-			value = value + multiple;
-			_putchar(value + '0');
-			if (count < 10)
+			value = count * multiple;
+			print("%i", value);
+			if (count != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
 				count++;
 			}
-			else
-			{
-				_putchar('&');
-				_putchar('\n');
-				break;
-			}
 		}
+		_putchar('\n');
 		multiple++;
 		value = 0;
 		count = 0;

@@ -15,21 +15,16 @@ void print_times_table(int n)
 	{
 		while (count < times)
 		{
-			value = value + multiple;
-			_putchar(value + '0');
-			if (count > times)
+			value = count* multiple;
+			printf("%i", value);
+			if (count != (times - 1))
 			{
 				_putchar(',');
 				_putchar(' ');
 				count++;
 			}
-			else
-			{
-				_putchar('&');
-				_putchar('\n');
-				break;
-			}
 		}
+		_putchar('\n');
 		multiple++;
 		value = count = 0;
 	}

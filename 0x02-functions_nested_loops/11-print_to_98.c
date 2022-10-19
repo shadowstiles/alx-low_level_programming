@@ -9,7 +9,7 @@ void print_to_98(int n)
 {
 	while (n > 99 || n < 99)
 	{
-		putchar(n + '0');
+		printf("%i", n);
 		if (n > 98)
 		{
 			putchar(',');
