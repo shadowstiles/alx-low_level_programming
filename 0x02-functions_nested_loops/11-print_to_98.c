@@ -10,6 +10,8 @@ void print_to_98(int n)
 	while (n >= 0 || n < 0)
 	{
 		printf("%i", n);
+		if (n == 98)
+			break;
 		if (n > 98)
 		{
 			putchar(',');
@@ -17,17 +19,11 @@ void print_to_98(int n)
 			n--;
 		}
 
-		if (n < 98)
+		if (n < 99)
 		{
 			putchar(',');
 			putchar(' ');
 			n++;
-		}
-		if (n > 97)
-		{
-			printf("%i", 98);
-			putchar('\n');
-			break;
 		}
 	}
 }

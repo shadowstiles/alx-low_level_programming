@@ -15,12 +15,12 @@ void times_table(void)
 		while (count < 10)
 		{
 			value = count * multiple;
-			printf("%i", value);
-			if (value <= 9)
-				putchar(' ');
+			printf("%i", value);;
 			if (count != 9)
 			{
 				printf(",");
+				if (value <= 9)
+					putchar(' ');
 				putchar(' ');
 			}
 			count++;
