@@ -24,4 +24,6 @@ int main(void)
 		val5 = val5 + 5;
 	}
 	printf("%i \n", value);
+
+	return (0);
 }
