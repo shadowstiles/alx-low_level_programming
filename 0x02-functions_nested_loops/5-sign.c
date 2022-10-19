@@ -7,7 +7,7 @@
  */		
 int print_sign(int n)
 {
-	char value;
+	int value;
 
 	if (n > 0)
 		value = +1;
