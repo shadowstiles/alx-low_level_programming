@@ -8,12 +8,22 @@
 int print_sign(int n)
 {
 	int value;
+	char *s;
 
 	if (n > 0)
-		value = atoi("+1");
+	{
+		s = "+1";
+		value = atoi(s);
+	}
 	if (n == 0)
-		value = atoi("0");
+	{
+		s = "0";
+		value = atoi(s);
+	}
 	if (n < 0)
-		value = atoi("-1");
+	{
+		s = "-1";
+		value = atoi(s);
+	}
 	return (value);
 }
