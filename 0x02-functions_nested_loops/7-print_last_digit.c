@@ -11,6 +11,9 @@ int print_last_digit(int v)
 	int last;
 	int absv;
 
+	if (v === INT_MIN)
+		return(88);
+
 	absv = abs(v);
 	last = absv % 10;
 
