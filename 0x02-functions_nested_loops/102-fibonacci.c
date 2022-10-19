@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.ih"
 #include <stdio.h>
 /**
  * main - fibanocci number
@@ -12,7 +12,7 @@ int main(void)
 	int c;
 
 	putchar(a + '0');
-	while (count > 51)
+	while (count < 51)
 	{
 		c = b;
 		b = a + b;
