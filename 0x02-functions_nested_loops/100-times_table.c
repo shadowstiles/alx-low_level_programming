@@ -24,7 +24,7 @@ void print_times_table(int n)
 			if (count != (times - 1))
 			{
 				printf(",");
-				if (value <= 9)
+				if (value < 9)
 					putchar(' ');
 				putchar(' ');
 			}
