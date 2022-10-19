@@ -20,8 +20,8 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
-				count++;
 			}
+			count++;
 		}
 		_putchar('\n');
 		multiple++;
