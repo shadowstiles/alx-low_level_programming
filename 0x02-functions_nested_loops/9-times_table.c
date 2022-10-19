@@ -19,7 +19,8 @@ void times_table(void)
 			if (count != 9)
 			{
 				printf(",");
-				printf("  ");
+				putchar(' ');
+				putchar(' ');
 			}
 			count++;
 		}

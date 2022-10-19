@@ -7,7 +7,7 @@
  */
 void print_to_98(int n)
 {
-	while (true)
+	while (n >= 0 || n < 0)
 	{
 		printf("%i", n);
 		if (n > 98)

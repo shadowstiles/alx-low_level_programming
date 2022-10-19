@@ -24,7 +24,9 @@ void print_times_table(int n)
 			if (count != (times - 1))
 			{
 				printf(",");
-				printf("  ");
+				putchar(' ');
+				putchar(' ');
+				putchar(' ' );
 			}
 			count++;
 		}
