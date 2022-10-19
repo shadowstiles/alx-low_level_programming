@@ -7,7 +7,7 @@
 int main(void)
 {
 	int a = 1;
-	int b = 2;
+	long int  b = 2;
 	int count = 2;
 	int c;
 
@@ -17,7 +17,7 @@ int main(void)
 		c = b;
 		b = a + b;
 		a = c;
-		printf("%lld", b);
+		printf("%ld", b);
 		if (count < 49)
 		{
 			putchar(',');
