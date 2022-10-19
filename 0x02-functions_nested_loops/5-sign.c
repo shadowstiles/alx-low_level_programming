@@ -7,13 +7,13 @@
  */		
 int print_sign(int n)
 {
-	int value;
+	char value;
 
 	if (n > 0)
-		value = atio(+1);
+		value = "+1";
 	if (n == 0)
-		value = 0;
+		value = "0";
 	if (n < 0)
-		value = atio(-1);
-	return (value);
+		value = "-1";
+	return (strtoi(value));
 }
