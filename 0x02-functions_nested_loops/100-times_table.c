@@ -12,6 +12,9 @@ void print_times_table(int n)
 	int value = 0;
 	int times = n + 1;
 
+	if (n > 15 || n < 0)
+		return (0);
+
 	while (multiple < times)
 	{
 		while (count < times)
@@ -21,7 +24,7 @@ void print_times_table(int n)
 			if (count != (times - 1))
 			{
 				printf(",");
-				printf("  ");
+				printf("   ");
 			}
 			count++;
 		}

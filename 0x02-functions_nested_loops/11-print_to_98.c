@@ -23,8 +23,9 @@ void print_to_98(int n)
 			putchar(' ');
 			n++;
 		}
-		if (n == 99)
+		if (n == 98)
 		{
+			printf("%i", 98);
 			putchar('\n');
 			break;
 		}
