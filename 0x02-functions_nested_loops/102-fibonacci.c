@@ -17,8 +17,8 @@ int main(void)
 		c = b;
 		b = a + b;
 		a = c;
-		printf("%i", b);
-		if (count < 50)
+		printf("%lld", b);
+		if (count < 49)
 		{
 			putchar(',');
 			putchar(' ');
