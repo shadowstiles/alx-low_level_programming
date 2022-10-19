@@ -27,6 +27,7 @@ void times_table(void)
 			}
 		}
 		multiple++;
-		value = count = 0;
+		value = 0;
+		count = 0;
 	}
 }
