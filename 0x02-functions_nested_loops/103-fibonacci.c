@@ -6,23 +6,23 @@
  */
 int main(void)
 {
-	long int a = 1;
-	long int  b = 2;
-	long int even = 2;
-	long int c;
+	int a = 1;
+	int  b = 2;
+	int even = 2;
+	int c;
 
 	while (even < 5000000)
 	{
 		c = b;
 		b = a + b;
 		a = c;
-		printf("%ld", b);
+		printf("%i", b);
 		if ((b % 2) == 0)
 		{
 			even = even + b;
 		}
 	}
-	printf("%ld", even);
+	printf("%i", even);
 	putchar('\n');
 	return (0);
 }
