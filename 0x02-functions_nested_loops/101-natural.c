@@ -11,13 +11,13 @@ int main(void)
 
 	while (val3 < 1024 || val5 < 1024)
 	{
-		if (val3 == val5)
+		if ((val3 % 5) == 0)
 			value = value + val3;
 		else
 		{
-			if (val3 < 1024)
+			if (val3 < 1024 && (val3 % 5) != 0)
 				value = value + val3;
-			if (val5 < 1024)
+			if (val5 < 1024 && (val5 % 3) != 0)
 				value = value + val5;
 		}
 		val3 = val3 + 3;

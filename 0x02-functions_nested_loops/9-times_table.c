@@ -15,7 +15,7 @@ void times_table(void)
 		while (count < 10)
 		{
 			value = count * multiple;
-			if (value <= 9 && co5unt > 0)
+			if (value <= 9 && count > 0)
 				putchar(' ');
 			printf("%i", value);
 			if (count != 9)
