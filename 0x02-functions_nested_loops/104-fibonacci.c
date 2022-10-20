@@ -6,19 +6,19 @@
  */
 int main(void)
 {
-	unsigned long long int a = 1;
-	unsigned long long int  b = 2;
+	long long int a = 1;
+	long long int  b = 2;
 	int count = 2;5
-	unsigned long long int c;
+	long long int c;
 
-	printf("%llu, ", a);
-	printf("%llu, ", b);
+	printf("%ld, ", a);
+	printf("%ld, ", b);
 	while (count < 98)
 	{
 		c = b;
 		b = a + b;
 		a = c;
-		printf("%llu", b);
+		printf("%ld", b);
 		if (count < 97)
 		{
 			putchar(',');
