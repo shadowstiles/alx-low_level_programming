@@ -10,7 +10,7 @@
 int _isdigit(int c)
 {
 	int value;
-	
+
 	if (isdigit(c))
 		value = 1;
 	else
