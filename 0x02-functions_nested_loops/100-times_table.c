@@ -20,12 +20,12 @@ void print_times_table(int n)
 		while (count < times)
 		{
 			value = count * multiple;
+			if (value <= 9 && count > 0)
+				putchar(' ');
 			printf("%i", value);
 			if (count != (times - 1))
 			{
 				printf(",");
-				if (value < 9)
-					putchar(' ');
 				putchar(' ');
 			}
 			count++;
