@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int value;
+	int value = 0;
 	int val3 = 3;
 	int val5 = 5;
 

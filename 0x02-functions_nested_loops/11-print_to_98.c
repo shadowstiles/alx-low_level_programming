@@ -15,14 +15,14 @@ void print_to_98(int n)
 			putchar('\n');
 			break;
 		}
-		if (n > 97)
+		if (n > 98)
 		{
 			putchar(',');
 			putchar(' ');
 			n--;
 		}
 
-		if (n < 99)
+		if (n < 98)
 		{
 			putchar(',');
 			putchar(' ');
