@@ -6,7 +6,7 @@
  * Return: line
  */
 
-void print_diagonal(int size)
+void print_square(int size)
 {
 	int count = 1;
 	int hash = 1;
