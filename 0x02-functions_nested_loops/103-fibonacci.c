@@ -11,7 +11,7 @@ int main(void)
 	long int even = 2;
 	long int c;
 
-	while (b < 4000000)
+	while (even < 5000000)
 	{
 		c = b;
 		b = a + b;
