@@ -19,7 +19,10 @@ void print_line(int n)
 	while (count <= n)
 	{
 		_putchar('_');
-		_putchar('\n');
+
+		if (count == n)
+			_putchar('\n');
+		
 		count++;
 	}
 }
