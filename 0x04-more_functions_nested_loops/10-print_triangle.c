@@ -26,7 +26,7 @@ void print_triangle(int size)
 			space--;
 		}
 
-		while (hash < count)
+		while (hash <= count)
 		{
 			_putchar('#');
 			hash++;
