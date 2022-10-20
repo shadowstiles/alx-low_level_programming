@@ -28,11 +28,11 @@ int main(void)
 			if (val5 < 1024 && (val5 % 3) != 0)
 			{
 				value = value + val5;
-				val5 = val5 +5;
+				val5 = val5 + 5;
 			}
 		}
 	}
-	printf("%i \n", value);
+	printf("%i\n", value);
 
 	return (0);
 }
