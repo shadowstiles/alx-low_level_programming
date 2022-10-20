@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	long long int a = 1;
-	long long int  b = 2;
-	int count = 2;5
-	long long int c;
+	long int a = 1;
+	long int  b = 2;
+	int count = 2;
+	long int c;
 
 	printf("%ld, ", a);
 	printf("%ld, ", b);
