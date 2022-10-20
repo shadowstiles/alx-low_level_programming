@@ -11,12 +11,12 @@ int main(void)
 	int even = 2;
 	int c;
 
-	while (even < 5000000)
+	while (b < 4000000)
 	{
 		c = b;
 		b = a + b;
 		a = c;
-		printf("%i", b);
+
 		if ((b % 2) == 0)
 		{
 			even = even + b;
