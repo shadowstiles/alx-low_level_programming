@@ -22,7 +22,7 @@ void print_line(int n)
 
 		if (count == n)
 			_putchar('\n');
-		
+
 		count++;
 	}
 }

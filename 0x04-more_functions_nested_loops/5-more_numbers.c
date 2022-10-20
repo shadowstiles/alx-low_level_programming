@@ -15,9 +15,8 @@ void more_numbers(void)
 		for (a = 0; a < 15; a++)
 		{
 			printf("%i", a);
-
-			if (a == 14)
-				_putchar('\n');
 		}
+
+		_putchar('\n');
 	}
 }
