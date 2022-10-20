@@ -10,6 +10,7 @@ void print_triangle(int size)
 {
 	int count = 1;
 	int space = size;
+	int hash = 1;
 
 	if (size <= 0)
 	{
@@ -25,8 +26,14 @@ void print_triangle(int size)
 			space--;
 		}
 
+		while (hash < count)
+		{
+			_putchar('#');
+			hash++;
+		}
+
 		space = size,
-		_putchar('#');
+		hash = 1,
 		_putchar('\n');
 
 		count++;
