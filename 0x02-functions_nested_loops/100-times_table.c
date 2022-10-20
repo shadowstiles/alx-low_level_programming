@@ -21,8 +21,8 @@ void print_times_table(int n)
 		{
 			value = count * multiple;
 			if (value <= 9 && count > 0)
-				printf("  ");
-			if (value <= 10 && count > 0)
+				printf(" ");
+			if (value >=  && count > 0)
 				printf(" ");
 			printf("%i", value);
 			if (count != (times - 1))
