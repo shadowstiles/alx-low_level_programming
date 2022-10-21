@@ -9,7 +9,7 @@
 
 void print_number(int n)
 {
-	char str[];
+	char str[100];
 	int count = 0;
 
 	sprintf(str, "%d", n);
