@@ -11,9 +11,9 @@ int main(void)
 	long int prime = num / 2;
 	long int i = 2;
 	long int test = 2;
-	
+
 	while (i <= num / 2)
-	{			        
+	{
 		while (test <= 9)
 		{
 			if (prime % test == 0 && prime != test)
@@ -24,7 +24,7 @@ int main(void)
 			{
 				test++;
 			}
-		}			        
+		}
 
 			if (test == 10)
 			{
@@ -33,14 +33,14 @@ int main(void)
 					break;
 				}
 			}
-			
+
 			test = 2;
 			prime--;
 			i++;
 			}
-			
+
 			printf("%ld", prime);
-			return 0;
+			return (0);
 		}
 	}
 }
