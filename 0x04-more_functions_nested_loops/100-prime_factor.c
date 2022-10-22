@@ -5,13 +5,13 @@
  * Return: highest prine factor
  */
 
-int main(void) 
+int main(void)
 {
-	long long int num = 612852475143;
-	long long int prime = num / 2;
-	long long int i = 2;
-	long long int test = 2;
-	long long largest_prime;
+	long int num = 612852475143;
+	long int prime = num / 2;
+	long int i = 2;
+	long int test = 2;
+	long largest_prime;
 	
 	while (i <= num / 2)
 	{			        
