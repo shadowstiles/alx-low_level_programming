@@ -37,10 +37,8 @@ int main(void)
 			test = 2;
 			prime--;
 			i++;
-			}
+	}
 
 			printf("%ld", prime);
 			return (0);
-		}
-	}
 }
