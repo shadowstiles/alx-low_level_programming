@@ -11,7 +11,6 @@ int main(void)
 	long int prime = num / 2;
 	long int i = 2;
 	long int test = 2;
-	long largest_prime;
 	
 	while (i <= num / 2)
 	{			        
@@ -20,7 +19,7 @@ int main(void)
 			if (prime % test == 0 && prime != test)
 			{
 				break;
-			{
+			}
 			else
 			{
 				test++;
