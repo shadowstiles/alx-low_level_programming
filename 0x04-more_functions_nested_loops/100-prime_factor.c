@@ -8,12 +8,12 @@
 int main(void) 
 {
 	long long int num = 612852475143;
-	long long int prime = num;
+	long long int prime = num / 2;
 	long long int i = 2;
 	long long int test = 2;
 	long long largest_prime;
 	
-	while (i <= num)
+	while (i <= num / 2)
 	{			        
 		while (test <= 9)
 		{
@@ -40,7 +40,7 @@ int main(void)
 			i++;
 			}
 			
-			printf("%lld", prime);
+			printf("%ld", prime);
 			return 0;
 		}
 	}
