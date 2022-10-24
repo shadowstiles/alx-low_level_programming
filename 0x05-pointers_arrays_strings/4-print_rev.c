@@ -9,5 +9,17 @@
 
 void print_rev(char *s)
 {
-	strrev(s);
+	char *p1, *p2;
+		
+	if (! s || ! *s)
+		return s;
+	for (p1 = s, p2 = s + print_rev(s) - 1; p2 > p1; ++p1, --p2)
+	{
+		*p1 ^= *p2;
+		
+		*p2 ^= *p1;
+		
+		*p1 ^= *p2;
+	}
+	return str;
 }
