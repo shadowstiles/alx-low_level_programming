@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_rev - writes to th standard output
+ * rev_string - writes to th standard output
  * @s: character to reverse
  * Return: 0 OR 1
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int i = 0;
 
