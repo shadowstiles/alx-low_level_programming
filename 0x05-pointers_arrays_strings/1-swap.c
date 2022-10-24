@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * saap_int - to swap two integers
