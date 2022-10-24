@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
  * print_rev - writes to th standard output
@@ -13,7 +14,7 @@ void print_rev(char *s)
 		
 	if (! s || ! *s)
 		printf("%s", s);
-	for (p1 = s, p2 = s + print_rev(s) - 1; p2 > p1; ++p1, --p2)
+	for (p1 = s, p2 = s + strlen(s) - 1; p2 > p1; ++p1, --p2)
 	{
 		*p1 ^= *p2;
 		
