@@ -7,20 +7,23 @@
  * @s: character to reverse
  * Return: 0 OR 1
  */
+char *strrev(char *str)
+{
+	char *p1, *p2;
+	
+	if (! str || ! *str)
+		return str;
+	for (p1 = str, p2 = str + strlen(str) - 1; p2 > p1; ++p1, --p2)
+	{
+		*p1 ^= *p2;
+		*p2 ^= *p1;
+		*p1 ^= *p2;
+	}
+	return str;
+}
 
 void print_rev(char *s)
 {
-	char *p1, *p2;
-		
-	if (! s || ! *s)
-		printf("%s", s);
-	for (p1 = s, p2 = s + strlen(s) - 1; p2 > p1; ++p1, --p2)
-	{
-		*p1 ^= *p2;
-		
-		*p2 ^= *p1;
-		
-		*p1 ^= *p2;
-	}
-	printf("%s", s);
+	char h = strrev(s);
+	printf("%s\n", h);
 }
