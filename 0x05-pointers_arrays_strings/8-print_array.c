@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/** print_array - print the n number of array
+/** 
+ * print_array - print the n number of array
  * @n: size of the array
  * @a: array
  * Return: value in array
@@ -15,10 +16,10 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 
-		if (i < n - 1)
+		if (i !=  n - 1)
 		{
-			_putchar(',');
-			_putchar(' ');
+			printf(",");
+			printf(" ");
 		}
 
 		i++;
