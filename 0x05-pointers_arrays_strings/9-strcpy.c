@@ -4,7 +4,7 @@
 /**
  * _strcpy - copy one string to another
  * @dest: destination of the cwo string
- * @str: the one we want to copy from
+ * @src: the one we want to copy from
  * Return: the copied value
  */
 
