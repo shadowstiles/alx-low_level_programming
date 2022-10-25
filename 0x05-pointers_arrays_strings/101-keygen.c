@@ -15,7 +15,7 @@ int main(void)
 
 	sum = 0;
 
-	strand(time(NULL));
+	srand(time(NULL));
 
 	for (i = 0; i < 100; i++)
 	{
@@ -25,7 +25,7 @@ int main(void)
 
 		if ((2772 - sum) - '0' < 78)
 		{
-			sum += n;
+			sum = sum + n;
 			putchar(n + '0');
 			break;
 		}
