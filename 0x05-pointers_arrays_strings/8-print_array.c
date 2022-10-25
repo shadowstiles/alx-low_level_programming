@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /** print_array - print the n number of array
  * @n: size of the array
@@ -12,7 +13,7 @@ void print_array(int *a, int n)
 
 	while (i < n)
 	{
-		_putchar(a[i]);
+		printf(a[i]);
 
 		if (i < n - 2)
 		{
