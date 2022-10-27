@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * reverse_array - Revesre a string
@@ -13,7 +14,7 @@ void reverse_array(int *a, int n)
 
 	while (i >= 0)
 	{
-		_putchar(a[i]);
+		printf("%d", (a[i]);
 		i--;
 	}
 }
