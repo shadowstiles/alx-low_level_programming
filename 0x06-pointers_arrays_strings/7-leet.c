@@ -10,7 +10,6 @@ char *leet(char *c)
 {
 	char lower[] = "aAeEoOtTlL";
 	char code[] = "4433007711";
-	char new[];
 	int i1 = 0;
 	int i2;
 
