@@ -9,7 +9,7 @@
 char *cap_string(char *c)
 {
 	char lower[] = "abcdefghijklmnopqrstuvwxyz";
-	char upper[] = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
+	char upper[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i1 = 0;
 	int i2;
 
@@ -26,7 +26,7 @@ char *cap_string(char *c)
 
 		for (i2 = 0; lower[i2] != '\0'; i2++)
 		{
-			if ((c[i1] == lower[i2] || c[i1] == upper[i2]) && (c[i1 - 1] == " "))
+			if ((c[i1] == lower[i2] || c[i1] == upper[i2]) && (c[--i1] == " "))
 			{
 				c[i1] = upper[i2];
 				break;
