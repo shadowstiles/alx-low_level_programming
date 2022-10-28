@@ -9,7 +9,7 @@
 char *string_toupper(char *c)
 {
 	char lower[] = "abcdefghijklmnopqrstuvwxyz";
-	char upper[] = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
+	char upper[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i1 = 0;
 	int i2;
 
