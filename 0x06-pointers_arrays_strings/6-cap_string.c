@@ -26,7 +26,7 @@ char *cap_string(char *c)
 
 		for (i2 = 0; lower[i2] != '\0'; i2++)
 		{
-			if ((c[i1] == lower[i2] || c[i2] == upper[i2]) && (c[i1 - 1] == " "))
+			if ((c[i1] == lower[i2] || c[i1] == upper[i2]) && (c[i1 - 1] == " "))
 			{
 				c[i1] = upper[i2];
 				break;
@@ -36,5 +36,5 @@ char *cap_string(char *c)
 		i1++;
 	}
 
-	return (0);
+	return (c);
 }
