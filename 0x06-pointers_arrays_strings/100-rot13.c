@@ -23,7 +23,7 @@ char *rot13(char *c)
 			}
 			else
 			{
-				c[i1] = lower[26 - i];
+				c[i1] = lower[26 - i2];
 				break;
 			}
 		}
