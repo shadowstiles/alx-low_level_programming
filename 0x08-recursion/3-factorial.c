@@ -19,11 +19,7 @@ int factorial(int n)
 		result = -1;
 	else
 	{
-		for (i = n; i < 0; i--)
-		{
-			ans *= n;
-		}
-
+		ans = (n * factorial(n - 1));
 		result = ans;
 	}
 
