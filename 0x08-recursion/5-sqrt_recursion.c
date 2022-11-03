@@ -1,5 +1,4 @@
 #include "main.h"
-#include <math.h>
 
 /**
  * _sqrt_recursion - To find the square of a number
@@ -9,23 +8,22 @@
 
 int _sqrt_recursion(int n)
 {
-	int c, ans;
+	int c;
 
-	c = count();
-	ans = c * c;
+	c = count(n);
 
-	if (ans != n && n == c)
-		return (-1);
-
-	if (ans == n)
-		return (ans);
-
-	return (_sqrt_recursion(n));
+	return (c);
 }
 
-int count(void)
+int count(int n)
 {
-	int i = 1;
+	int i;
 
-	return (i + 1);
+	for (i = 1; i < 9 && i > 0; i++)
+	{
+		if (i * i = n)
+			return (i * i);
+	}
+
+	return (-1);
 }
