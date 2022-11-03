@@ -21,7 +21,7 @@ int count(int n)
 
 	for (i = 1; i < 9 && i > 0; i++)
 	{
-		if (i * i = n)
+		if (i * i == n)
 			return (i * i);
 	}
 
