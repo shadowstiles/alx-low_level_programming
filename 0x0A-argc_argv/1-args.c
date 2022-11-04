@@ -7,9 +7,8 @@
  * @argv: argv
  * Return: 0
  */
-int argc;
 
-int main()
+void numargc(int argc)
 {
 	int i;
 	int ans;
@@ -20,6 +19,11 @@ int main()
 	}
 
 	printf("%d\n", ans);
+}
+
+int main(void)
+{
+	numargc(1);
 
 	return (0);
 }
