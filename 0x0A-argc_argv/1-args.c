@@ -12,17 +12,14 @@ int argc;
 int main()
 {
 	int i;
-	int ans = 0;
+	int ans;
 
 	for (i = 0; i < argc; i++)
 	{
-
-		ans = ans + 1;
+		ans = i;
 	}
 
-	printf("%d", ans);
-
-	printf("\n");
+	printf("%d\n", ans);
 
 	return (0);
 }
