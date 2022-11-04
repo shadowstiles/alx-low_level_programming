@@ -7,14 +7,16 @@
  * @argv: argv
  * Return: 0
  */
+int argc;
 
-int main(int argc, char *argv[])
+int main()
 {
 	int i;
 	int ans = 0;
 
 	for (i = 0; i < argc; i++)
 	{
+
 		ans = ans + 1;
 	}
 
