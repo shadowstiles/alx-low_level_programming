@@ -8,22 +8,11 @@
 
 int _sqrt_recursion(int n)
 {
-	int c;
+	if (n < 0)
+		return (-1);
 
-	c = count(n);
+	if (n == 1)
+		return (1);
 
-	return (c);
-}
-
-int count(int n)
-{
-	int i;
-
-	for (i = 1; i < 9 && i > 0; i++)
-	{
-		if (i * i == n)
-			return (i * i);
-	}
-
-	return (-1);
+	return (_squrt_recursion(n - 1));
 }
