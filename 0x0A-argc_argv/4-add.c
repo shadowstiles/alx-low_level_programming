@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	int ans;
 
 	if (argc == 0)
-		printf("%d", 0);
+		printf("%d\n", 0);
 
 	for (i = 1; i < argc; i++)
 	{
