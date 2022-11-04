@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-void numargc(int argc)
+int main(int argc, char *argv[]__attribute__((unused)))
 {
 	int i;
 	int ans;
@@ -19,11 +19,6 @@ void numargc(int argc)
 	}
 
 	printf("%d\n", ans);
-}
-
-int main(void)
-{
-	numargc(1);
 
 	return (0);
 }
