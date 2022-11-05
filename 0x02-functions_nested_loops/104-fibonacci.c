@@ -9,7 +9,7 @@ int main(void)
 	float a = 1;
 	float b = 2;
 	int count = 2;
-	float int c;
+	float c;
 
 	printf("%f, ", a);
 	printf("%f, ", b);
