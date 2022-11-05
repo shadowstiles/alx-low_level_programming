@@ -23,8 +23,10 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	if (num <= 0)
+	{
 		printf("%d\n", 0);
-
+		return (0);
+	}
 	while (i < 5)
 	{
 		if (num >= change[i])
@@ -47,8 +49,6 @@ int main(int argc, char *argv[])
 		else
 			i++;
 	}
-
 	printf("%d\n", ans);
-
 	return (0);
 }
