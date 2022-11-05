@@ -25,8 +25,7 @@ int main(int argc, char *argv[])
 
 		if (num == 0)
 		{
-			printf("Errrrror\n");
-
+			printf("Error\n");
 			return (1);
 		}
 		else
