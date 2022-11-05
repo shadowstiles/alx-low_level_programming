@@ -1,15 +1,15 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _isalpha - uppercase, letter etv
- * @c: imput
+ * _islower - Entry
+ * @c:  Imput
  * Return: value
  */
-int _isalpha(int c)
+int _islower(int c)
 {
 	int value;
 
-	if (isalpha(c))
+	if (islower(c))
 	{
 		value = 1;
 	}
