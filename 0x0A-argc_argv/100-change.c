@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int i = 0;
-	int num = strtol(argv[i], NULL, 10);
+	int num = atoi(argv[i]);
 	int change[5] = {25, 10, 5, 2, 1};
 	int ans = 0;
 	int value = 0;
