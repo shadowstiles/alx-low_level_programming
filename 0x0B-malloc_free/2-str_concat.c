@@ -11,7 +11,8 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *ar;
-	int i, j;
+	int i;
+	int j;
 	int size1 = sizeof(s1);
 	int size2 = sizeof(s2);
 	int size = sizeof(s1) + sizeof(s2);
