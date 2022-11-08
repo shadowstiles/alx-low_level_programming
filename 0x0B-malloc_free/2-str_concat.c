@@ -24,7 +24,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (i = 0; i < size1; i++, j++)
 	{
-		if (s1[j] == NULL)
+		if (s1[j] == '\0')
 			ar[i] = ' ';
 		else
 			ar[i] = s1[j];
@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (; j < size2; i++, j++)
 	{
-		if (s2[j] == NULL)
+		if (s2[j] == '\0')
 			ar[i] = ' ';
 		else
 			ar[i] = s2[j];
@@ -43,3 +43,4 @@ char *str_concat(char *s1, char *s2)
 	ar[i] = '\0';
 
 	return (ar);
+}
