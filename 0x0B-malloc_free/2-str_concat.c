@@ -11,9 +11,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *ar;
-	int i;
-	int k = 0;
-	int j = 0;
+	int i, j;
 	int size1 = sizeof(s1);
 	int size2 = sizeof(s2);
 	int size = sizeof(s1) + sizeof(s2);
@@ -22,7 +20,8 @@ char *str_concat(char *s1, char *s2)
 
 	if (ar == NULL)
 		return (NULL);
-	for (i = 0; j < size1; i++, j++)
+
+	for (j = 0; j < size1; i++, j++)
 	{
 		if (s1 == NULL)
 		{
@@ -32,7 +31,8 @@ char *str_concat(char *s1, char *s2)
 		else
 			ar[i] = s1[j];
 	}
-	while (k < size2)
+
+	for (j = 0; j < size2, i++, j++)
 	{
 		if (s2 == NULL)
 		{
@@ -41,9 +41,6 @@ char *str_concat(char *s1, char *s2)
 		}
 		else
 			ar[i] = s2[j];
-
-		i++;
-		j++;
 	}
 
 	ar[i] = '\0';
