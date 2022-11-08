@@ -25,19 +25,28 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; j < size1; i++, j++)
 	{
 		if (s1 == NULL)
+		{
 			ar[i] = '\0';
+			break;
+		}
 		else
 			ar[i] = s1[j];
 	}
 
 	j = 0;
 
-	for (; j < size2; i++, j++)
+	while (j < size2)
 	{
 		if (s2 == NULL)
+		{
 			ar[i] = '\0';
+			break;
+		}
 		else
 			ar[i] = s2[j];
+
+		i++;
+		j++;
 	}
 
 	ar[i] = '\0';
