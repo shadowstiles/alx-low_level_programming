@@ -44,6 +44,6 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	ar[i] = '\0';
-
+	free (ar);
 	return (ar);
 }
