@@ -32,7 +32,7 @@ char *str_concat(char *s1, char *s2)
 			ar[i] = s1[j];
 	}
 
-	for (j = 0; j < size2, i++, j++)
+	for (j = 0; j < size2; i++, j++)
 	{
 		if (s2 == NULL)
 		{
