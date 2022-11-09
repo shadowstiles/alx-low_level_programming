@@ -17,13 +17,13 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		ans = num1 * num2;
-		printf("%d\n", ans);
+		printf("Error\n");
+
+		return (1);
 	}
 	else
 	{
-		printf("Error\n");
-
+		printf("%d\n", num1 * num2);
 	}
 
 	return (0);
