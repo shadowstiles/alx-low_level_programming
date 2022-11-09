@@ -12,9 +12,9 @@ int **alloc_grid(int width, int height)
 {
 	int *ptr;
 	int **ar;
-	int i, j;
+	int i, j, order;
 
-	ptr = malloc((width * height + 8) * sizeof(int));
+	ptr = malloc((width * height + 256) * sizeof(int));
 
 	if (ptr == NULL)
 		return (NULL);
@@ -23,8 +23,13 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 
 	for (i = 0; i < width; i++)
+	{
 		for (j = 0; j < height; j++)
-			*(ptr + i * height + j) = 0;
+		{
+			order = i * height + j;
+			ptr[order] = 0;
+		}
+	}
 
 	ar = &ptr;
 
