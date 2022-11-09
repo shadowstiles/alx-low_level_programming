@@ -6,13 +6,24 @@
  * Return: 0 || -1
  */
 
+int count = 2;
+
 int _sqrt_recursion(int n)
 {
+	int value;
+
 	if (n < 0)
 		return (-1);
 
 	if (n == 1)
 		return (1);
 
-	return (_squrt_recursion(n - 1));
+	value = count * count;
+
+	if (value == n)
+		return (value);
+	else
+		count++;
+
+	return (_squrt_recursion(n));
 }
