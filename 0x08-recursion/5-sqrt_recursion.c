@@ -6,8 +6,6 @@
  * Return: 0 || -1
  */
 
-int count = 2;
-
 int _sqrt_recursion(int n)
 {
 	int value;
