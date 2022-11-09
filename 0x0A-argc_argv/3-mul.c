@@ -15,17 +15,16 @@ int main(int argc, char *argv[])
 	int num1 = strtol(argv[1], NULL, 10);
 	int num2 = strtol(argv[2], NULL, 10);
 
-	if (argc == 3)
-	{
-		putchar('\n');
-		printf("Error\n");
-
-		return (1);
-	}
-	else
+	if (argc != 3)
 	{
 		ans = num1 * num2;
 		printf("%d\n", ans);
+	}
+	else
+	{
+		printf("Error\n");
+
+		return (1);
 	}
 
 	return (0);
