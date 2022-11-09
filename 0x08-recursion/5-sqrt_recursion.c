@@ -21,9 +21,9 @@ int _sqrt_recursion(int n)
 	value = count * count;
 
 	if (value == n)
-		return (value);
-	else
-		count++;
+		return (count);
+
+	count++;
 
 	return (_sqrt_recursion(n));
 }
