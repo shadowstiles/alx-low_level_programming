@@ -5,17 +5,20 @@
  * @s: The string
  * Return: Reversed string
  */
-int count(char s);
 
 void _print_rev_recursion(char *s)
 {
-	int i = sizeof(s) - 1;
+	count = sizeof(s) - 1;
 
-	if (i < 0)
+	if (count < 0)
+	{
 		_putchar('\n'');
 
-}
+		return (0);
+	}
 
-int count(char s)
-{
-	
+	_putchar(s[count]);
+	count--;
+
+	return (_print_rev_recursion(s));
+}
