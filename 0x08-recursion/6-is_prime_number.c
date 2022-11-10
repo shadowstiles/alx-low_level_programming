@@ -12,7 +12,7 @@ int is_prime_number(int n)
 
 	ans = n % count;
 
-	if (ans == 0 && count != n)
+	if ((ans == 0 && count != n) || n == 1)
 		return (0);
 
 	if (n > 10 && ans > 0)
