@@ -3,10 +3,11 @@
 #include "dog.h"
 
 /**
- * new_dogs - Create New dog
+ * new_dog - Create New dog
  * @name: Name
  * @age: Age
  * @owner: Owner
+ * Return: dogs
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
