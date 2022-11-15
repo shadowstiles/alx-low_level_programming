@@ -3,8 +3,13 @@
 #include "main.h"
 #include "dog.h"
 
+/**
+ * print_dog - Prints Dog details
+ * @d: d
+ */
+
 void print_dog(struct dog *d)
-{	
+{
 	if (d->name == NULL)
 		printf("Name: (nil)");
 	else
@@ -18,5 +23,5 @@ void print_dog(struct dog *d)
 	if (d->owner == NULL)
 		printf("Owner: (nil)");
 	else
-		printf("Owner: %s\n", d->`owner);
+		printf("Owner: %s\n", d->owner);
 }
