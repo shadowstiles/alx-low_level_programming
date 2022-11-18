@@ -4,7 +4,7 @@
 /**
  * print_name - To print name to screen
  * @name: Firstname to be printed
- * @others: Funtunction name to be printed
+ * @f: Function ponter
  * Return: NULL
  */
 
