@@ -10,5 +10,13 @@
 
 void print_name(char *name, void (*f)(char *others))
 {
-	printf("%c, %c", name, f(others));
+	unsigned nameSize = sizeof(name);
+	int i;
+
+	for (i = 0; i < nameSize; i++)
+		_putchar('name[i]);
+
+	_putchar(',');
+	_putchar(' ');
+	f(others);
 }
