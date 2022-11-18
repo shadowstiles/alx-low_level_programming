@@ -8,15 +8,7 @@
  * Return: NULL
  */
 
-void print_name(char *name, void (*f)(char *others))
+void print_name(char *name, void (*f)(char *))
 {
-	unsigned nameSize = sizeof(name);
-	int i;
-
-	for (i = 0; i < nameSize; i++)
-		_putchar('name[i]);
-
-	_putchar(',');
-	_putchar(' ');
-	f(others);
+	f(name);
 }
