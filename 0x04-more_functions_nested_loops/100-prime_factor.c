@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /**
  * main - print highest prime factor
@@ -7,38 +8,17 @@
 
 int main(void)
 {
-	long int num = 612852475143;
-	long int prime = num / 2;
-	long int i = 2;
-	long int test = 2;
+	int c;
+	long num = 612852475143;
 
-	while (i <= num / 2)
+	for (c = (int) sqrt(num); c > 2; c++)
 	{
-		while (test <= 9)
+		if (num % c == 0)
 		{
-			if (prime % test == 0 && prime != test)
-			{
-				break;
-			}
-			else
-			{
-				test++;
-			}
+			printf("%d\n", c);
+			break;
 		}
-
-			if (test == 10)
-			{
-				if (num % prime == 0)
-				{
-					break;
-				}
-			}
-
-			test = 2;
-			prime--;
-			i++;
 	}
 
-			printf("%ld", prime);
-			return (0);
+	return (0);
 }
