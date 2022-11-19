@@ -14,5 +14,6 @@ int _putchar(char c);
 int count = 2;
 int pal(char *s, int l);
 int get_length(char *s);
+int find(char *s, char c, int i, int p);
 
 #endif
