@@ -12,5 +12,7 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int _putchar(char c);
 int count = 2;
+int pal(char *s, int l);
+int get_length(char *s);
 
 #endif
