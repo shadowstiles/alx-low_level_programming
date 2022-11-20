@@ -3,6 +3,7 @@
 /**
  * sum_them_all - return the sum of all its parameters
  * @n: number of extra params
+ * va_start - function
  * Return: total sum
  */
 int sum_them_all(const unsigned int n, ...)
