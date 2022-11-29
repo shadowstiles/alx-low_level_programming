@@ -5,7 +5,7 @@
  * @head: pointer to head
  * Return: sum of all int `n`
  */
- 
+
 int sum_listint(listint_t *head)
 {
 	int sum;

@@ -5,7 +5,7 @@
  * @head: double pointer to head node of linked list
  * Return: head nodes data `n`
  */
- 
+
 int pop_listint(listint_t **head)
 {
 	int num;

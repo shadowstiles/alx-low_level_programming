@@ -6,6 +6,7 @@
  * @index: index of node to delete, starting at 0
  * Return: 1 if success, -1 if failed
  */
+
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *current;

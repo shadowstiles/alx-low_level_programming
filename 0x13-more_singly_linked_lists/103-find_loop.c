@@ -6,7 +6,7 @@
  * @head: head of linked list
  * Return: Address of node where loop starts, or NULL if no loop found.
  */
- 
+
 listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *currents, *currentf;

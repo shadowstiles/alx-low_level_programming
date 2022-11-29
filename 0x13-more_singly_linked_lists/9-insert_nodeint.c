@@ -8,7 +8,7 @@
  * @n: value to store in node
  * Return: Address of new node or NULL if failed
  */
- 
+
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int index, int n)
 {
 	listint_t *new;

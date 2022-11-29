@@ -5,7 +5,7 @@
  * @h: double pointer to head of linked list
  * Return: size of the list that was free'd
  */
- 
+
 size_t free_listint_safe(listint_t **h)
 {
 	listint_t *current, *hold;
